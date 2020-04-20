@@ -487,6 +487,9 @@ def create_artist_submission():
 
 @app.route('/shows')
 def shows():
+    #=================================================
+    #this two way to show page and give same risult error
+    #================================================
   # displays list of shows at /shows
   # TODO: replace with real venues data.
   #       num_shows should be aggregated based on number of upcoming shows per venue.
